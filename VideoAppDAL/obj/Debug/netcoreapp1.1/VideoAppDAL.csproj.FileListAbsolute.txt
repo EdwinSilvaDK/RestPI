@@ -1,0 +1,17 @@
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.deps.json
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.dll
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.pdb
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppEntity.dll
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppEntity.pdb
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.csprojResolveAssemblyReference.cache
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.csproj.CoreCompileInputs.cache
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.AssemblyInfo.cs
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.dll
+/Users/EdwinSilva/Desktop/CCrashCourse/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.pdb
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.deps.json
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.dll
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/bin/Debug/netcoreapp1.1/VideoAppDAL.pdb
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.csproj.CoreCompileInputs.cache
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.AssemblyInfo.cs
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.dll
+/Users/EdwinSilva/Desktop/VideoApp/VideoAppDAL/obj/Debug/netcoreapp1.1/VideoAppDAL.pdb
