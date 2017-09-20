@@ -20,7 +20,7 @@ namespace VideoAppBLL.Services
             this.facade = facade;
         }
 
-        public List<Video> AddVideos(List<Video> vids)
+        public List<VideoBO> AddVideos(List<VideoBO> vids)
         {
 
             using (var uow = facade.UnitOfWork)
@@ -28,7 +28,7 @@ namespace VideoAppBLL.Services
 
                 foreach (var vid in vids)
                 {
-                    var newVid = uow.VideoRepository.Create(vid);
+                    var newVid = uow.VideoRepository.Create(videoConv.Convert(vid));
 
                 }
 
@@ -38,10 +38,7 @@ namespace VideoAppBLL.Services
             }
         }
 
-        public List<VideoBO> AddVideos(List<VideoBO> vids)
-        {
-            throw new NotImplementedException();
-        }
+
 
         public VideoBO Create(VideoBO vid)
         {
@@ -55,10 +52,6 @@ namespace VideoAppBLL.Services
 
         }
 
-        public Video Create(Video vid)
-        {
-            throw new NotImplementedException();
-        }
 
         public VideoBO Delete(int Id)
         {
@@ -93,7 +86,7 @@ namespace VideoAppBLL.Services
             }
         }
 
-        public VideoBO Update(Video vid)
+        public VideoBO Update(VideoBO vid)
         {
             using (var uow = facade.UnitOfWork)
             {
@@ -102,20 +95,13 @@ namespace VideoAppBLL.Services
                 {
                     throw new InvalidOperationException("Video not found");
                 }
-                VideoFromDB.Autor = vid.Autor;
-                VideoFromDB.Name = vid.Name;
-                VideoFromDB.Length = vid.Length;
+                VideoFromDB.Title = vid.Title;
+                VideoFromDB.pricePrDay = vid.pricePrDay;
                 VideoFromDB.Id = vid.Id;
+                uow.Complete();
                 return videoConv.Convert(VideoFromDB);
             }
         }
-
-        public VideoBO Update(VideoBO vid)
-        {
-            throw new NotImplementedException();
-        }
-
-
 
 
     }

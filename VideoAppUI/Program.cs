@@ -88,11 +88,11 @@ namespace VideoAppUI
             if (videoFound != null)
             {
                 Console.WriteLine("Type in new autor name");
-                videoFound.Autor = Console.ReadLine();
+                videoFound.Title = Console.ReadLine();
                 Console.WriteLine("Type in name of video");
-                videoFound.Name = Console.ReadLine();
+                videoFound.pricePrDay = int.Parse(Console.ReadLine());
                 Console.WriteLine("Type in the length of the video");
-                videoFound.Length = int.Parse(Console.ReadLine());
+
                 bllfacade.VideoAppService.Update(videoFound);
             }
             else
@@ -131,31 +131,29 @@ namespace VideoAppUI
         {
             foreach (var vid in bllfacade.VideoAppService.GetAll())
             {
-                Console.WriteLine($"\n Autor:{vid.Autor}, Name: {vid.Name}, Length: {vid.Length}, Id: {vid.Id}");
+                Console.WriteLine($"\n Title:{vid.Title}, Price Pr Day: {vid.pricePrDay}, Id: {vid.Id}");
             }
         }
 
         private static void createVideo()
         {
 
-            int length;
-            string autor;
-            string name;
 
-            Console.WriteLine("Type the name of the arthur");
-            autor = Console.ReadLine();
-            Console.WriteLine("Type in the name of the movie");
-            name = Console.ReadLine();
-            Console.WriteLine("Type in length");
-            length = int.Parse(Console.ReadLine());
+            string Title;
+            int pricePrDay;
+
+            Console.WriteLine("Type in the title of the movie");
+            Title = Console.ReadLine();
+            Console.WriteLine("Type in the price of the movie pr.day");
+            pricePrDay = int.Parse(Console.ReadLine());
+
 
 
             bllfacade.VideoAppService.Create(new VideoBO()
             {
 
-                Autor = autor,
-                Name = name,
-                Length = length,
+                Title = Title,
+                pricePrDay = pricePrDay
 
 
             });

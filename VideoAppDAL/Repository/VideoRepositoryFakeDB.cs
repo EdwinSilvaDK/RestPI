@@ -16,9 +16,9 @@ namespace VideoAppDAL.Repository
             Videos.Add(newVid = new Video()
             {
                 Id = Id++,
-                Autor = vid.Autor,
-                Name = vid.Name,
-                Length = vid.Length,
+                Title = vid.Title,
+                pricePrDay = vid.pricePrDay,
+
 
 
             });

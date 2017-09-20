@@ -12,12 +12,13 @@ namespace VideoAppBLL.Converter
 
         internal Video Convert(VideoBO vid)
         {
+            if (vid == null) { return null; }
+
             return new Video()
             {
                 Id = vid.Id,
-                Autor = vid.Autor,
-                Name = vid.Name,
-                Length = vid.Length
+                Title = vid.Title,
+                pricePrDay = vid.pricePrDay,
 
 
             };
@@ -25,12 +26,13 @@ namespace VideoAppBLL.Converter
         }
         internal VideoBO Convert(Video vid)
         {
+            if (vid == null) { return null; }
+
             return new VideoBO()
             {
                 Id = vid.Id,
-                Autor = vid.Autor,
-                Name = vid.Name,
-                Length = vid.Length
+                Title = vid.Title,
+                pricePrDay = vid.pricePrDay,
 
 
             };

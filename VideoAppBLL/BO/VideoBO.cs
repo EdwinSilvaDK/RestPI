@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace VideoAppBLL.BO
 {
@@ -6,13 +8,18 @@ namespace VideoAppBLL.BO
     {
 
         public int Id { get; set; }
-        public string Autor { get; set; }
-        public string Name { get; set; }
-        public int Length { get; set; }
-        public String FullName
+        public string Title { get; set; }
+        public int pricePrDay { get; set; }
+        public List<GenreBO> Genres { get; set; }
+        public List<RentalBO> Rentals { get; set; }
+
+
+
+
+        public String TitlePrice
         {
             get
-            { return $" {Autor}: {Name}"; }
+            { return $" Title: {Title}, Price: {pricePrDay}"; }
         }
     }
 }

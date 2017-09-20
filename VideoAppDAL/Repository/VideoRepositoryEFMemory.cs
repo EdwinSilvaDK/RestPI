@@ -9,8 +9,8 @@ namespace VideoAppDAL.Repository
     public class VideoRepositoryEFMemory : IVideoRepository
     {
 
-        InMemoryContext context;
-        public VideoRepositoryEFMemory(InMemoryContext context)
+        VideoAppContext context;
+        public VideoRepositoryEFMemory(VideoAppContext context)
         {
             this.context = context;
         }
