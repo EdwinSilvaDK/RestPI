@@ -16,12 +16,6 @@ namespace VideoAppBLL.Converter
                 Id = Gen.Id,
                 Name = Gen.Name
 
-
-
-
-
-
-
             };
 
         }

@@ -43,10 +43,11 @@ namespace VideoRestAPI
                     Id = 2
 
                 });
-            facade.GenreService.Create(new GenreBO()
+            facade.RentalService.Create(new RentalBO()
             {
-
-                Name = "Horror",
+                Id = 1,
+                From = "Denmark",
+                To = "Brasil",
 
 
 

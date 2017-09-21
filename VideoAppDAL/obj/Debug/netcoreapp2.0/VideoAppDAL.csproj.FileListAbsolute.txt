@@ -7,12 +7,11 @@
 /Users/EdwinSilva/Desktop/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.AssemblyInfo.cs
 /Users/EdwinSilva/Desktop/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.dll
 /Users/EdwinSilva/Desktop/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.pdb
-/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.deps.json
-/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.dll
-/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.pdb
-/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.csprojResolveAssemblyReference.cache
 /Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.csproj.CoreCompileInputs.cache
 /Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.AssemblyInfoInputs.cache
 /Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.AssemblyInfo.cs
+/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.deps.json
+/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.dll
+/Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/bin/Debug/netcoreapp2.0/VideoAppDAL.pdb
 /Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.dll
 /Users/EdwinSilva/Desktop/GithubProjects/RestAPI/VideoAppDAL/obj/Debug/netcoreapp2.0/VideoAppDAL.pdb

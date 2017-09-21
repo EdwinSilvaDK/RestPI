@@ -10,21 +10,26 @@ namespace VideoAppBLL.Converter
         }
         internal Rental Convert(RentalBO Ren)
         {
+            if (Ren == null) { return null; }
             return new Rental()
             {
                 Id = Ren.Id,
                 From = Ren.From,
-                To = Ren.To
+                To = Ren.To,
+                Video = new VideoConverter().Convert(Ren.Video)
             };
 
         }
         internal RentalBO Convert(Rental Ren)
         {
+            if (Ren == null) { return null; }
             return new RentalBO()
             {
                 Id = Ren.Id,
                 From = Ren.From,
-                To = Ren.To
+                To = Ren.To,
+                Video = new VideoConverter().Convert(Ren.Video)
+
 
             };
 

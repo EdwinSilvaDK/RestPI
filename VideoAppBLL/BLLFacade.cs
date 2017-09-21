@@ -17,7 +17,10 @@ namespace VideoAppBLL
         {
             get { return new GenreService(new DALFacade()); }
         }
-
+        public IRentalInterface RentalService
+        {
+            get { return new RentalService(new DALFacade()); }
+        }
     }
 }
 

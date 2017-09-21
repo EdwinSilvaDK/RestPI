@@ -1,4 +1,5 @@
 ﻿using System;
+using VideoAppDAL.UOW;
 namespace VideoAppDAL
 {
     public interface IUnitOfWork : IDisposable
@@ -6,6 +7,7 @@ namespace VideoAppDAL
         IVideoRepository VideoRepository { get; }
 
         IGenreRepository GenreRepository { get; }
+        IRentalRepository RentalRepository { get; }
 
         int Complete();
     }
